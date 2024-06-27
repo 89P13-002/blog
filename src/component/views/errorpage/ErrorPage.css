@@ -1,0 +1,41 @@
+.error-page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.error {
+  text-align: center;
+}
+
+.error-content {
+  color: #fff;
+  padding: 20px;
+}
+
+.error h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.error p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
